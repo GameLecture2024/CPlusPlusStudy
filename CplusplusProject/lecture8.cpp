@@ -1,5 +1,5 @@
 #include "lectures.h"
-#include <string>
+#include <cstring>
 /*
 *  학습 목표 : c++ 상속 기본 문법에 대한 이해
 *  작성일    : 2024-08-22
@@ -52,52 +52,52 @@
 *  Gun(총)
 */
 
-//class Book
-//{
-//private:
-//	char* title;
-//	int price;
-//public:
-//	Book(char* title, int price)
-//	{
-//		this->price = price;   //: price(price) 처리가 같다.
-//		this->title = new char[strlen(title) + 1];
-//		strcpy_s(this->title, strlen(title) + 1, title);
-//	}
-//	~Book()
-//	{
-//		delete[] title;
-//	}
-//
-//	void ShowBookInfo()	
-//	{
-//		std::cout << "제목 : " << title << std::endl;
-//		std::cout << "가격 : " << price << std::endl;
-//	}
-//};
-//
-//class EBook : public Book
-//{
-//private:
-//	char* DRMkey;
-//public:
-//	EBook(char* title, int price, const char* key) : Book(title, price)
-//	{
-//		DRMkey = new char[strlen(key) + 1];
-//		strcpy_s(DRMkey, strlen(key) + 1, key);
-//	}
-//
-//	void ShowEBookInfo() 
-//	{
-//		ShowBookInfo();
-//		std::cout << "DRMKey의 값" << "wasdfwefiajed" << std::endl;
-//	}
-//
-//	~EBook()
-//	{
-//		delete[] DRMkey;
-//	}
-//};
+class Book
+{
+private:
+	char* title;
+	int price;
+public:
+	Book(const char* title, int price)
+	{
+		this->price = price;   //: price(price) 처리가 같다.
+		this->title = new char[strlen(title) + 1];
+		strcpy_s(this->title, strlen(title) + 1, title);
+	}
+	~Book()
+	{
+		delete[] title;
+	}
+
+	void ShowBookInfo()	
+	{
+		std::cout << "제목 : " << title << std::endl;
+		std::cout << "가격 : " << price << std::endl;
+	}
+};
+
+class EBook : public Book
+{
+private:
+	char* DRMkey;
+public:
+	EBook(const char* title, int price, const char* key) : Book(title, price)
+	{
+		DRMkey = new char[strlen(key) + 1];
+		strcpy_s(DRMkey, strlen(key) + 1, key);
+	}
+
+	void ShowEBookInfo() 
+	{
+		ShowBookInfo();
+		std::cout << "DRMKey의 값" << "wasdfwefiajed" << std::endl;
+	}
+
+	~EBook()
+	{
+		delete[] DRMkey;
+	}
+};
 
 class Gun
 {
@@ -255,9 +255,12 @@ void lecture8()
 	child c1;
 	//c1.num3 = 100;
 
-	// 전자책
-	// EBook ebook("C++ 예제 문제", 10000,  "wwwssssddd");
+	Book book("C++ 교재", 5000);
+	book.ShowBookInfo();
 
+	// 전자책
+	EBook ebook("C++ 예제 문제", 10000,  "wwwssssddd");
+	ebook.ShowEBookInfo();
 	// 경찰
 	Police police;
 	police.Shot();
