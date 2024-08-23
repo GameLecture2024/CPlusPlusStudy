@@ -58,7 +58,7 @@ private:
 	char* title;
 	int price;
 public:
-	Book(const char* title, int price)
+	Book(const char* title, int price)			
 	{
 		this->price = price;   //: price(price) 처리가 같다.
 		this->title = new char[strlen(title) + 1];
