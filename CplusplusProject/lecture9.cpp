@@ -96,6 +96,11 @@ public:
         hungry -= 10;
         happy += 5;
     }
+
+    void Bark()
+    {
+        std::cout << "왈왈" << std::endl;
+    }
 };
 
 // Is- A 사냥개는 개이다.
@@ -104,7 +109,10 @@ class HuntDog : public Dog2
 public:
     HuntDog() {}
     HuntDog(int hungry, int happy) : Dog2(hungry, happy) {}
-    void Hunting();
+    void Hunting()
+    {
+        std::cout << "사냥개가 사냥을 합니다." << std::endl;
+    }
 
     //void PlayWithMaster() override
     //{
@@ -116,7 +124,14 @@ public:
 
 class Cat : public Pet
 {
+public:
+    Cat() {}
+    Cat(int hungry, int happy) : Pet(hungry, happy) {}
 
+    void Hide()
+    {
+        std::cout << "고양이가 숨었습니다." << std::endl;
+    }
 };
 
 // PetController, PetHandler : Pet클래스를 제어하는 클래스다.
@@ -156,6 +171,37 @@ public:
         UseActivePoint();
     }
 
+
+    // Pet 클래스를 이용해서 고유 함수를 실행시키고 싶다.
+    // Pet을 고유 클래스로 타입 변환(Casting) 시키고 싶다.
+    // 문제. 모든 Pet이 상속 받는 하나의 자식 클래스로 변환할 수 없다.
+    // 조건이 필요해집니다.
+
+    // c언어 형변환   (타입) 이름;
+    // c++언어 형변환 조건을 추가해서 연산자로 만듦.
+    // static_cast, dynamic_cast, reinterpret_cast, const_cast
+
+    // dynamic_cast 형변환
+    // if조건문으로 제한을 걸어서 표현
+
+    void Play2() // Cat, Dog, Bird 고유한 함수를 만들어주세요.
+    {
+       /* if (myPet 만약에 huntDog라면)
+            hunyDog->Hunting();                */
+        HuntDog* huntDog = dynamic_cast<HuntDog*>(myPet);
+        if(huntDog != nullptr)
+            huntDog->Hunting();
+
+        Cat* cat = dynamic_cast<Cat*>(myPet);
+        if (cat != nullptr)
+            cat->Hide();
+
+        Dog2* dog = dynamic_cast<Dog2*>(myPet);
+        if(dog != nullptr)
+            dog->Bark();
+    }
+
+
     void ShowInfo()
     {
         std::cout << "소지 금액 : " << money << std::endl;
@@ -164,6 +210,28 @@ public:
         myPet->ShowInfo();
     }
 };
+
+// 객체프로그래밍의 다형성 : 동일 형태로 복수의 기능을 구현
+// 클래스를 확장할 때 마다 동일 함수의 오버로딩을 구현하는 것을 피하고
+// 하나의 함수로 표현하기 위해서.
+// PetController의 변수 player.Play(); 형태가 모두 동일합니다.
+// 결과는 모두 다릅니다.
+
+// 공통된 함수 Virtual void PlayWithMaster();
+// 이름과 반환 값이 같은 함수를 상속받는 클래스에 선언을 해줘야한다.
+
+// Pet을 상속받는 클래스인데, 각 클래스 고유의 메서드를 실행하는 방법
+// Hunting 실행하는 법.. Cat. Hide 실행을 하려면 어떻게 해야하는가?
+
+// Play(Pet* pet)으로 Cat고유의 함수, Dog고유의 함수를 실행하는 법
+// PlayWithCat(Cat* cat); (Cat& cat);  cat->Hide();
+// PlayWithDog(Dog* dog);
+// PlayWithBird(Bird* bird);
+
+// 클래스를 상속하는 이유 첫번째. PetController에서 Pet을 사용하는 공통된 함수로 한번에 표현한다.
+// 두번째. 클래스 확장성. Pet-> Dog, Cat, Bird 고유한 함수를 갖게 된다. Cat, Dog, Bird 인자로 만드려고 하면 복잡해진다.
+// 형변환(자식 <-> 부모) dynamic_cast : 형변환이 불가능하면 nullPtr 특징.
+
 
 void lecture9()
 {
@@ -176,9 +244,15 @@ void lecture9()
 
     PetController p2(&dog, 1000, 3);
     p2.Play();
+    p2.Play2();
     p2.ShowInfo();
 
     PetController p3(&huntDog, 1000, 3);
     p3.Play();
+    p3.Play2();
     p3.ShowInfo();
+
+    Cat cat(100, 100);
+    PetController p4(&cat, 1000, 3);
+    p4.Play2();
 }
