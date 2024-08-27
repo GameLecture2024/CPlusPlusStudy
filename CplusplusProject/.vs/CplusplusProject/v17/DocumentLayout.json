@@ -3,6 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6563B1A-173A-4BA4-B2A7-5B9DBBA3FB9C}|..\\RPGBattleSystem\\RPGBattleSystem.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6563B1A-173A-4BA4-B2A7-5B9DBBA3FB9C}|..\\RPGBattleSystem\\RPGBattleSystem.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6563B1A-173A-4BA4-B2A7-5B9DBBA3FB9C}|..\\RPGBattleSystem\\RPGBattleSystem.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,20 +36,8 @@
       "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:CplusplusProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lecture8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDBB0FC1-FE91-4BA0-B083-C58008EC3C97}|CplusplusProject.vcxproj|C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -53,11 +66,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 185,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "GameObjects.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.cpp",
+              "RelativeDocumentMoniker": "..\\RPGBattleSystem\\GameObjects.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.cpp",
+              "RelativeToolTip": "..\\RPGBattleSystem\\GameObjects.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T08:26:30.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameObjects.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.h",
+              "RelativeDocumentMoniker": "..\\RPGBattleSystem\\GameObjects.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\GameObjects.h",
+              "RelativeToolTip": "..\\RPGBattleSystem\\GameObjects.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-27T08:17:48.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\main.cpp",
+              "RelativeDocumentMoniker": "..\\RPGBattleSystem\\main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\RPGBattleSystem\\main.cpp",
+              "RelativeToolTip": "..\\RPGBattleSystem\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T08:13:23.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "lecture11.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture11.cpp",
+              "RelativeDocumentMoniker": "lecture11.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture11.cpp",
+              "RelativeToolTip": "lecture11.cpp",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T07:01:48.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "lectures.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.cpp",
               "RelativeDocumentMoniker": "lectures.cpp",
@@ -70,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "lecture10.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture10.cpp",
               "RelativeDocumentMoniker": "lecture10.cpp",
@@ -78,12 +143,11 @@
               "RelativeToolTip": "lecture10.cpp",
               "ViewState": "AQIAAGIAAAAAAAAAAAAAAHIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T07:03:02.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:03:02.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "lecture4.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture4.cpp",
               "RelativeDocumentMoniker": "lecture4.cpp",
@@ -95,33 +159,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "lecture9.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture9.cpp",
               "RelativeDocumentMoniker": "lecture9.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture9.cpp",
               "RelativeToolTip": "lecture9.cpp",
-              "ViewState": "AQIAAOQAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-23T07:04:31.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CplusplusProject.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp",
               "RelativeDocumentMoniker": "CplusplusProject.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject.cpp",
               "RelativeToolTip": "CplusplusProject.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAGAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-22T07:03:33.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "lecture8.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lecture8.cpp",
               "RelativeDocumentMoniker": "lecture8.cpp",
@@ -129,25 +193,24 @@
               "RelativeToolTip": "lecture8.cpp",
               "ViewState": "AQIAAAcBAAAAAAAAAAAAAAcBAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-22T07:03:22.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:03:22.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "lectures.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h",
               "RelativeDocumentMoniker": "lectures.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\CplusplusProject\\lectures.h",
               "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-22T07:03:02.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GameCore.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\ConsoleText\\GameCore.cpp",
               "RelativeDocumentMoniker": "..\\ConsoleText\\GameCore.cpp",
@@ -159,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "GameCore.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\ConsoleText\\GameCore.h",
               "RelativeDocumentMoniker": "..\\ConsoleText\\GameCore.h",
@@ -171,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Parser.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\ConsoleText\\Parser.cpp",
               "RelativeDocumentMoniker": "..\\ConsoleText\\Parser.cpp",
@@ -183,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Parser.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\ConsoleText\\Parser.h",
               "RelativeDocumentMoniker": "..\\ConsoleText\\Parser.h",
@@ -195,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ConsoleText.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CPlusPlusStudy\\ConsoleText\\ConsoleText.cpp",
               "RelativeDocumentMoniker": "..\\ConsoleText\\ConsoleText.cpp",
