@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPGBattleSystem", "..\RPGBa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyProject2", "..\ToyProject2\ToyProject2.vcxproj", "{ED0DF3E4-D47D-4B9D-B24E-8A3CAEFF3388}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TickTaeToe", "..\TickTaeToe\TickTaeToe.vcxproj", "{33727F1E-F0DC-4055-83C9-56D588FA11ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{ED0DF3E4-D47D-4B9D-B24E-8A3CAEFF3388}.Release|x64.Build.0 = Release|x64
 		{ED0DF3E4-D47D-4B9D-B24E-8A3CAEFF3388}.Release|x86.ActiveCfg = Release|Win32
 		{ED0DF3E4-D47D-4B9D-B24E-8A3CAEFF3388}.Release|x86.Build.0 = Release|Win32
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Debug|x64.ActiveCfg = Debug|x64
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Debug|x64.Build.0 = Debug|x64
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Debug|x86.Build.0 = Debug|Win32
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Release|x64.ActiveCfg = Release|x64
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Release|x64.Build.0 = Release|x64
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Release|x86.ActiveCfg = Release|Win32
+		{33727F1E-F0DC-4055-83C9-56D588FA11ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
