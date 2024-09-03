@@ -85,7 +85,7 @@ public:
 		// 클래스 게임 이름.h 게임 이름.cpp 
 		// Board board;   board.GamePlay();
 
-		board b;		
+		board b;
 		b.GamePlay();
 	}
 	void GameEnd()
@@ -96,15 +96,15 @@ public:
 
 int main(void)
 {
-	std::cout << "Std 함수 예제" << std::endl;
-	SampleSTD* sample = new SampleSTD;
+	//std::cout << "Std 함수 예제" << std::endl;
+	//SampleSTD* sample = new SampleSTD;
 	//sample->SetWidthExample();
-	sample->IsDigitExampe();
-	delete sample;
+	//sample->IsDigitExampe();
+	//delete sample;
 
 	std::cout << "메인 화면" << std::endl;
 	
 	GameManager* gm = GameManager::GetSingleton();
-	//gm->MainMenu();
+	gm->MainMenu();
 	
 }
